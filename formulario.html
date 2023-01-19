@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <title>Cadastro</title>
+      <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+    </head>
+
+        <body>
+        <h1 id="titulo">Formulário de inscrição</h1>
+          <h2 id="subtitulo">Preencha todos os campos abaixo</h2> 
+          <br>
+        <div>
+
+         <form>
+        
+          <label for = "Nome_Completo"> <strong> Digite seu nome completo:</strong></label>
+           <input type="text" name = "Nome_Completo" id = "Nome_Completo"> 
+          
+           <br>
+           <label for = "date"> <strong>Data de nascimento:</strong> </label>
+           <input type="date" name="date" id="data"> 
+
+           <br>
+        
+           <label for = "email"><strong>Seu email:</strong></label>
+           <input type="email" name="email" id="email">
+          
+           <br>
+          
+           <label for = "telefone"><strong>Digite seu telefone para contato:</strong></label>
+           <input type="tel" name="telefone" id="telefone">
+          
+          </div>
+           <br>
+        
+           <div>
+          <label><strong>Qual é o seu objetivo?</strong></label>
+           <br>
+           <input type="radio" name="dev" id="frontend">
+          Ser um desenvolvedor front-end
+           <br>
+          <input type="radio" name="dev" id="backend">
+          Ser um desenvolvedor back-end
+          <br>
+           <input type="radio" name="dev" id="fullstack">
+          Ser um desenvolvedor fullstack
+          </div>
+        
+        
+        <div>
+         <br>
+         <strong>Como ficou sabendo do nosso processo seletivo?</strong>
+         <br>
+         <input type="radio" >
+         Pelo Instagram
+         
+         <br>
+         <input type="radio">
+         Pelo Facebook
+        
+        <br>
+        <input type="radio">
+        Pelo Linkedin
+        
+        <br>
+        <input type="radio">
+        Atráves de amigos
+      </div>
+    
+      <div>
+        <br>
+        <label><strong>Conhece ou já trabalhou com alguma dessas tecnologias?<strong></label>
+        <br>
+        <input type="checkbox"> HTML
+        <br>
+        <input type="checkbox"> CSS
+        <br>
+        <input type="checkbox"> JavaScript
+        <br>
+        <input type="checkbox"> Python
+        <br>
+        <input type="checkbox"> PHP
+        <br>
+        <input type="checkbox"> Java
+        <br>
+        <input type="checkbox"> Ruby
+        <br>
+     </div>
+    
+      <label><strong>Concorda com a nossa política de privacidade?</strong></label>
+        <br>
+        <p><a href="Política de privacidade">Política de privacidade</body>
+      </a></p>
+
+      <br>
+   
+      <div>
+      <label><strong>Conte um pouco da sua história</strong></label>
+      <textarea raw="6" style="width: 26em" id="experiencia" name="experiencia"> </textarea>
+    </div>
+      
+    <br>
+    <button class="botao" type="submit" onsubmit=""><strong>Enviar</strong></button>
+  
+  </form>
+      </body>
+
+        </html>
